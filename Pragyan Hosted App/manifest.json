@@ -1,0 +1,28 @@
+{
+  "name": "Pragyan 12 App",
+  "description": "Pragyan 12 - NIT Trichy",
+  "version": "1", // Next update must increment this. 4-dot separated integers allowed e.g. 1.0.23.1
+  "app": {
+    "urls": [
+      "*://www.pragyan.org",
+      "*://*.google.com"    
+    ],
+    "launch": {
+      "web_url": "http://www.pragyan.org", // launch URL
+      "container": "panel", // or "tab"
+      "height": 700, // height and width only works with container: panel
+      "width": 1100
+    }
+  },
+  "icons": {
+    "128": "pragyanlogo.jpg"
+  },
+  "permissions": [
+    "background", // except this, all permissions are required for using specific HTML5 APIs
+    "unlimitedStorage",
+    "notifications",
+    "clipboardRead", 
+    "clipboardWrite",
+    "geolocation"
+  ]
+}

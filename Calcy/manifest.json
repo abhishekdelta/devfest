@@ -1,0 +1,14 @@
+{
+  "name": "Calcy - Demo Chrome Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "A simple calculator",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup2.html"
+  },
+  "permissions": [
+    "http://api.flickr.com/",
+    "http://web2.0calc.com/"
+  ]
+}
