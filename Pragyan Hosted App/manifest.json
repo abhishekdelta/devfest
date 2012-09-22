@@ -1,6 +1,7 @@
 {
   "name": "Pragyan 12 App",
   "description": "Pragyan 12 - NIT Trichy",
+  "manifest_version": 2,
   "version": "1", // Next update must increment this. 4-dot separated integers allowed e.g. 1.0.23.1
   "app": {
     "urls": [
